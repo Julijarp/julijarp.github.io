@@ -1,0 +1,58 @@
+@font-face{
+    font-family: Julian;
+    src: url(fonts/Monofett/Monofett-Regular.ttf) format(truetype);
+}
+@font-face{
+    font-family: Julian2;
+    src: url(fonts/Inconsolata/Inconsolata-VariableFont_wdth,wght.ttf) format(truetype);
+}
+
+header{
+    overflow: scroll;
+    background-color: darkslategray;
+    width: 100%;
+}
+
+a, li{
+    display: inline-block;
+    color: darkcyan;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+table {
+    border: 1px solid darkslategray; 
+    font-family: Julian2;
+    font-size: 30px;
+    color: darkcyan;
+    margin: 0 auto; 
+}
+
+th {
+    border: 1px solid darkcyan;
+    background-color: darkslategray;
+}
+
+td {
+    border: 1px solid black; 
+    font-family: Julian2;
+    font-size: 20px;
+}
+
+.col1{
+    width: 8cm;
+}
+
+.col2{
+    width: 22cm;
+}
+
+span{
+    font-style: italic;
+    font-weight: bold;
+}
+.name{
+    text-align: center;
+}
